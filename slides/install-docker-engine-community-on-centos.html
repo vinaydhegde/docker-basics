@@ -1,0 +1,14 @@
+			
+<h2>Install 'Docker Engine - Community' on CentOS</h2>
+<ul style="list-style-type:square;">
+	<li><b>Install required packages:</b></li>
+	<p><em>sudo yum install -y yum-utils device-mapper-persistent-data lvm2</em></p>
+	<li><b>Setup the 'stable' repository:</></li>
+	<p><em>sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo</em></p>
+	<li><b>Install the latest version of Docker Engine - Community and containerd</b></li>
+	<p><em>sudo yum install docker-ce docker-ce-cli containerd.io</em></p>
+	<li><b>Start Docker:</b></li>
+	<p><em>sudo systemctl start docker</em></p>
+	<li><b>Verify that 'Docker Engine - Community' is installed correctly by running the hello-world image:</b></li>
+	<p><em>sudo docker run hello-world</em></p>
+</ul>
