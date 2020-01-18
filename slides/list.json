@@ -3,5 +3,6 @@
     "docker-editions.html",
     "install-docker-engine-community-on-ubuntu.html",
     "install-docker-engine-community-on-centos.html",
-    "docker-overview.html"
+    "docker-overview.html",
+    "docker-engine.html"
 ]
