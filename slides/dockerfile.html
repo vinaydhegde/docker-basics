@@ -3,12 +3,8 @@
 <ul style="list-style-type:square">
 	<li class="fragment">Docker can build images automatically by reading the instructions from a Dockerfile</li>
 	<li class="fragment">A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image</li>
-	<li class="fragment"><b>Docker registries</b><br>
-A Docker registry stores Docker images. Docker Hub is a public registry that anyone can use,
-and Docker is configured to look for images on Docker Hub by default. You can even run your own private registry<br>
-	</li> 
-<p class="fragment">Command to build Image from Dockerfile:</p>
-<p class="fragment"><em>docker build <build’s context></em><br>
+<p class="fragment"><b>Command to build Image from Dockerfile:</b></p>
+<p class="fragment"><em>docker build &ltbuild&aposs context&gt</em><br>
 <em>docker build .</em><br>
 <em>docker build –f /path/to/a/Dockerfile .</em><br> 
 <em>docker build –f /path/to/a/Dockerfile -t vinay/myapp .</em><br>
