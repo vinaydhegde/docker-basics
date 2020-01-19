@@ -1,0 +1,29 @@
+<h2>DOCKER OBJECTS</h2>
+
+<ul style="list-style-type:square;">
+	<li class="fragment"><b>IMAGES:</b><br>
+	An image is a read-only template with instructions for creating a Docker container.<br> 
+	Often, an image is based on another image, with some additional customization.
+	</li>
+	<ul style="list-style-type:circle;">
+		<li class="fragment">To build your own image, you create a Dockerfile with a simple syntax <br>
+		for defining the steps needed to create the image and run it.</li>
+		<li class="fragment">Each instruction in a Dockerfile creates a layer in the image.</li>
+		<li class="fragment">When you change the Dockerfile and rebuild the image, <br>
+		only those layers which have changed are rebuilt.</li>
+		<li class="fragment">This is part of what makes images so lightweight, small, and fast, <br>
+		when compared to other virtualization technologies</li>
+	</ul>			
+	<li class="fragment"><b>CONTAINERS:</b><br>
+	A container is a runnable instance of an image. You can create, start, stop, move, or delete a container<br>
+	using the Docker API or CLI. You can connect a container to one or more networks,<br> 
+	attach storage to it, or even create a new image based on its current state.
+	</li>
+	<li class="fragment"><b>SERVICES:</b><br>
+	Services allow you to scale containers across multiple Docker daemons, <br>
+	which all work together as a swarm with multiple managers and workers.
+	</li>
+</ul>
+
+	
+
