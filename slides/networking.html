@@ -1,9 +1,23 @@
 <h2>NETWORKING</h2>
 
 <ul style="list-style-type:square;">
-	<li class="fragment">Docker implements networking in an application-driven manner and provides various options while maintaining enough abstraction for application developers. There are basically two types of networks available - the default Docker network and user-defined networks. By default, you get three different networks on the installation of Docker - none, bridge, and host. The none and host networks are part of the network stack in Docker. The bridge network automatically creates a gateway and IP subnet and all containers that belong to this network can talk to each other via IP addressing. This network is not commonly used as it does not scale well and has constraints in terms of network usability and service discovery
+	<li class="fragment">Docker implements networking in an application-driven manner and provides various options while maintaining enough abstraction for application developers. 
+	</li>
+	<li class="fragment">There are two types of networks:
+	<ol>
+	<li class="fragment"><b>default Docker networks</b></li> 
+	<li class="fragment"><b>user-defined networks</b></li>
+	</ol>	
+	<li class="fragment">By default, you get three different networks on the installation of Docker:
+	<ol>
+	<li class="fragment"><b>none</b></li>
+	<li class="fragment"><b>bridge</b></li>
+	<li class="fragment"><b>host`</b></li>
+	</ol>
+	<li class="fragment">The <b>none</b> and <b>host</b> networks are part of the network stack in Docker.</li> 
+	<li class="fragment">The <b>bridge network</b> automatically creates a gateway and IP subnet and all containers that belong to this network can talk to each other via IP addressing. This network is not commonly used as it does not scale well and has constraints in terms of network usability and service discovery
 	</li>			
-	<li class="fragment">The other type of networks is user-defined networks. Administrators can configure multiple user-defined networks. There are three types:
+	<li class="fragment">Administrators can configure multiple <b>user-defined networks</b>. There are three types:
     </li>
 	<ol>
 	<li class="fragment"><b>Bridge network:</b> Similar to the default bridge network, a user-defined Bridge network differs in that there is no need for port forwarding for containers within the network to communicate with each other. The other difference is that it has full support for automatic network discovery
