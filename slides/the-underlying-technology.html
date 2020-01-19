@@ -6,17 +6,13 @@
 	</li>
 	<p class="fragment">Docker Engine uses namespaces such as the following on Linux:</p>
 	<ul style="list-style-type:circle;">
-		<li class="fragment">The pid namespace: Process isolation (PID: Process ID).</li>
-		<li class="fragment">The net namespace: Managing network interfaces (NET: Networking).</li>
-		<li class="fragment">The ipc namespace: Managing access to IPC resources (IPC: InterProcess Communication).</li>
-		<li class="fragment">The mnt namespace: Managing filesystem mount points (MNT: Mount).</li>
-		<li class="fragment">The uts namespace: Isolating kernel and version identifiers. (UTS: Unix Timesharing System).</li>
+		<li class="fragment">The <b>pid</b> namespace: Process isolation (PID: Process ID).</li>
+		<li class="fragment">The <b>net</b> namespace: Managing network interfaces (NET: Networking).</li>
+		<li class="fragment">The <b>ipc</b> namespace: Managing access to IPC resources (IPC: InterProcess Communication).</li>
+		<li class="fragment">The <b>mnt</b> namespace: Managing filesystem mount points (MNT: Mount).</li>
+		<li class="fragment">The <b>uts</b> namespace: Isolating kernel and version identifiers. (UTS: Unix Timesharing System).</li>
 	</ul>			
 	<li class="fragment"><b>CONTROL GROUPS:</b><br>
 	A cgroup limits an application to a specific set of resources. Control groups allow Docker Engine to share available hardware resources to containers and optionally enforce limits and constraints. For example, you can limit the memory available to a specific container.
-	</li>
-	<li class="fragment"><b>SERVICES:</b><br>
-	Services allow you to scale containers across multiple Docker daemons, 
-	which all work together as a swarm with multiple managers and workers.
 	</li>
 </ul>
