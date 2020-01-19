@@ -6,5 +6,6 @@
     "docker-overview.html",
     "docker-engine.html",
     "docker-arhitecture.html",
-    "docker-objects.html"
+    "docker-objects.html",
+    "docker-objects-contd.html"
 ]
