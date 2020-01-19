@@ -14,5 +14,6 @@
     "containers-and-virtual-machines.html",
     "dockerfile.html",
     "containerizing-an-application.html",
-    "dockerfile.html"
+    "dockerfile.html",
+    "dockerfile-reference.html"
 ]
