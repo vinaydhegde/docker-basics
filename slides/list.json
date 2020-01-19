@@ -20,5 +20,6 @@
     "docker-run.html",
     "networking.html",
     "networking-contd.html",
-    "storage.html"
+    "storage.html",
+    "attach-vs-exec.html"
 ]
