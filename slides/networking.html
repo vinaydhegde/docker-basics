@@ -1,0 +1,16 @@
+<h2>NETWORKING</h2>
+
+<ul style="list-style-type:square;">
+	<li class="fragment">Docker implements networking in an application-driven manner and provides various options while maintaining enough abstraction for application developers. There are basically two types of networks available - the default Docker network and user-defined networks. By default, you get three different networks on the installation of Docker - none, bridge, and host. The none and host networks are part of the network stack in Docker. The bridge network automatically creates a gateway and IP subnet and all containers that belong to this network can talk to each other via IP addressing. This network is not commonly used as it does not scale well and has constraints in terms of network usability and service discovery
+	</li>			
+	<li class="fragment">The other type of networks is user-defined networks. Administrators can configure multiple user-defined networks. There are three types:
+    </li>
+	<ol>
+	<li class="fragment"><b>Bridge network:</b> Similar to the default bridge network, a user-defined Bridge network differs in that there is no need for port forwarding for containers within the network to communicate with each other. The other difference is that it has full support for automatic network discovery
+	</li>
+	<li class="fragment"><b>Overlay network:</b> An Overlay network is used when you need containers on separate hosts to be able to communicate with each other, as in the case of a distributed network. However, a caveat is that swarm mode must be enabled for a cluster of Docker engines, known as a swarm, to be able to join the same group
+	</li>
+	<li class="fragment"><b>Macvlan network:</b> When using Bridge and Overlay networks a bridge resides between the container and the host. A Macvlan network removes this bridge, providing the benefit of exposing container resources to external networks without dealing with port forwarding. This is realized by using MAC addresses instead of IP addresses
+	</li>
+	</ol>
+</ul>

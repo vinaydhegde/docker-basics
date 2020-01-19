@@ -17,5 +17,6 @@
     "dockerfile.html",
     "dockerfile-reference.html",
     "docker-commands.html",
-    "docker-run.html"
+    "docker-run.html",
+    "networking.html"
 ]
