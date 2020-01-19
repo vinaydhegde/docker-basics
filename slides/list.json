@@ -10,5 +10,6 @@
     "docker-objects-contd.html",
     "the-underlying-technology.html",
     "the-underlying-technology-contd.html",
-    "images-and-containers.html"
+    "images-and-containers.html",
+    "containers-and-virtual-machines.html"
 ]
