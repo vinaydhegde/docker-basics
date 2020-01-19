@@ -26,5 +26,6 @@
     "run-vs-entrypoint-cmd.html",
     "save-load-vs-export-import.html",
     "docker-run-vs-create-start.html",
-    "faq.html"
+    "faq.html",
+    "thank-you.html"
 ]
