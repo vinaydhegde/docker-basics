@@ -11,5 +11,7 @@
     "the-underlying-technology.html",
     "the-underlying-technology-contd.html",
     "images-and-containers.html",
-    "containers-and-virtual-machines.html"
+    "containers-and-virtual-machines.html",
+    "dockerfile.html",
+    "containerizing-an-application.html"
 ]

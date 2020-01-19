@@ -1,0 +1,18 @@
+<h2>CONTAINERIZING AN APPLICATION</h2>
+
+<p>Create and test individual containers for each component of your application by creating Docker images</p>
+<ol>
+	<li class="fragment"><b>Clone an example project from GitHub </b>(This is a simple bulletin board application, written in node.js)<br>
+	<em>git clone -b v1 https://github.com/docker-training/node-bulletin-board</em><br> 
+	<em>cd  node-bulletin-board/bulletin-board-app</em>
+	</li>			
+	<li class="fragment"><b>Build & Test your Image</b><br>
+	<em>docker image build -t bulletinboard:1.0</em>
+	</li>
+	<li class="fragment"><b>Start a container based on your new image</b><br>
+	<em>docker container run --publish 8000:8080 --detach --name bb bulletinboard:1.0</em>
+	</li>
+	<li class="fragment"><b>Visit your application in a browser at localhost:8000</b>
+	</li>
+</ul>
+
