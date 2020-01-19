@@ -1,3 +1,27 @@
 <h2>DOCKERFILE</h2>
 
-<p>Please change me!</p>
+<ul style="list-style-type:square">
+	<li class="fragment">Docker can build images automatically by reading the instructions from a Dockerfile</li>
+	<li class="fragment">A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image</li>
+	<li class="fragment"><b>Docker registries</b><br>
+A Docker registry stores Docker images. Docker Hub is a public registry that anyone can use,
+and Docker is configured to look for images on Docker Hub by default. You can even run your own private registry<br>
+	</li> 
+<p class="fragment">Command to build Image from Dockerfile:</p>
+<p class="fragment"><em>docker build <build’s context></em><br>
+<em>docker build .</em><br>
+<em>docker build –f /path/to/a/Dockerfile .</em><br> 
+<em>docker build –f /path/to/a/Dockerfile -t vinay/myapp .</em><br>
+</p>
+	<li class="fragment"><b>Dockerfile format:</b><br>
+<img src="slides/images/dockerfile-format.png" alt="Dockerfile format" class="inline" style="width:600px;height:200px;" />
+</li>
+</ul>
+
+	
+	
+
+	
+
+
+

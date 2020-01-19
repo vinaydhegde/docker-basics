@@ -13,5 +13,6 @@
     "images-and-containers.html",
     "containers-and-virtual-machines.html",
     "dockerfile.html",
-    "containerizing-an-application.html"
+    "containerizing-an-application.html",
+    "dockerfile.html"
 ]
