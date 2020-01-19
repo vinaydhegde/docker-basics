@@ -1,0 +1,13 @@
+<h2>NETWORKING CONTD...</h2>
+<ul style="list-style-type:square;">
+<li class="fragment">Administrators can configure multiple <b>user-defined networks</b>. There are three types:</li>
+	<ol>
+	<li class="fragment"><b>Bridge network:</b> Similar to the default bridge network, a user-defined Bridge network differs in that there is no need for port forwarding for containers within the network to communicate with each other. The other difference is that it has full support for automatic network discovery
+	</li>
+	<li class="fragment"><b>Overlay network:</b> An Overlay network is used when you need containers on separate hosts to be able to communicate with each other, as in the case of a distributed network. However, a caveat is that swarm mode must be enabled for a cluster of Docker engines, known as a swarm, to be able to join the same group
+	</li>
+	<li class="fragment"><b>Macvlan network:</b> When using Bridge and Overlay networks a bridge resides between the container and the host. A Macvlan network removes this bridge, providing the benefit of exposing container resources to external networks without dealing with port forwarding. This is realized by using MAC addresses instead of IP addresses
+	</li>
+	</ol>
+<li>
+</ul>
