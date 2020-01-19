@@ -15,5 +15,6 @@
     "dockerfile.html",
     "containerizing-an-application.html",
     "dockerfile.html",
-    "dockerfile-reference.html"
+    "dockerfile-reference.html",
+    "docker-commands.html"
 ]
