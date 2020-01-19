@@ -21,5 +21,8 @@
     "networking.html",
     "networking-contd.html",
     "storage.html",
-    "attach-vs-exec.html"
+    "attach-vs-exec.html",
+    "copy-vs-add.html",
+    "run-vs-entrypoint-cmd.html",
+    "save-load-vs-export-import.html"
 ]
