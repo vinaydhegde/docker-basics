@@ -1,0 +1,10 @@
+<h2>DOCKER RUN VS CREATE &amp; START</h2>
+
+<ul style="list-style-type:square">
+	<li class="fragment">The docker create command creates a writeable container layer over the specified image and prepares it for running the specified command. The container ID is then printed to STDOUT. This is similar to docker run -d except the container is never started. You can then use the docker start command to start the container at any point.
+	</li>
+	<li class="fragment">This is useful when you want to set up a container configuration ahead of time so that it is ready to start when you need it. The initial status of the new container is created.
+	</li>
+	<li class="fragment">docker run = docker create + docker start
+	</li>
+</ul>	
