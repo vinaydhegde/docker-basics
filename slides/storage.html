@@ -1,0 +1,18 @@
+<h2>STORAGE</h2>
+
+<ul style="list-style-type:square;">
+	<li class="fragment">You can store data within the writable layer of a container but it requires a storage driver. Being non-persistent, it perishes whenever the container is not running. Moreover, it is not easy to transfer this data.  
+	</li>
+	<li class="fragment">In terms of persistent storage, Docker offers four options:
+	<ol>
+	<li class="fragment"><b>Data Volumes:</b> Data Volumes provide the ability to create persistent storage, with the ability to rename volumes, list volumes, and also list the container that is associated with the volume. Data Volumes sit on the host file system, outside the containers copy on write mechanism and are fairly efficient.
+	</li> 
+	<li class="fragment"><b>Data Volume Container:</b> A Data Volume Container is an alternative approach wherein a dedicated container hosts a volume and to mount that volume to other containers. In this case, the volume container is independent of the application container and therefore can be shared across more than one container.
+    </li>
+	<li class="fragment"><b>Directory Mounts:</b> Another option is to mount a host’s local directory into a container. In the previously mentioned cases, the volumes would have to be within the Docker volumes folder, whereas when it comes to Directory Mounts any directory on the Host machine can be used as a source for the volume.
+    </li>
+	<li class="fragment"><b>Storage Plugins:</b> Storage Plugins provide the ability to connect to external storage platforms. These plugins map storage from the host to an external source like a storage array or an appliance. A list of storage plugins can be found on Docker’s Plugin page.
+    </li>	
+	</ol>					
+</ul>
+

@@ -19,5 +19,6 @@
     "docker-commands.html",
     "docker-run.html",
     "networking.html",
-    "networking-contd.html"
+    "networking-contd.html",
+    "storage.html"
 ]
