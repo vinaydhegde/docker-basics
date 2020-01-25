@@ -1,9 +1,21 @@
 <h2>THE UNDERLYING TECHNOLOGY CONTD...</h2>
 <ul style="list-style-type:square;">
-	<li class="fragment"><b>SERVICES:</b><br>
-	Services allow you to scale containers across multiple Docker daemons, 
-	which all work together as a swarm with multiple managers and workers.
-	</li>			
+	<li class="fragment"><b>CONTROL GROUPS:</b><br>
+	A cgroup limits an application to a specific set of resources. Control groups allow Docker Engine to share available hardware resources to containers and optionally enforce limits and constraints. For example, you can limit the memory available to a specific container.
+	</li>
+	<p class="fragment">Cgroups involve resource metering and limiting for:</p>
+	<ul style="list-style-type:circle:>
+		<li class="fragment">Memory</li>
+		<li class="fragment">CPU</li>
+		<li class="fragment">Block I/O</li>
+		<li class="fragment">Network</li>
+	</ul>
+	<p class="fragment">In short:</p>
+	<ul style="list-style-type:circle>
+		<li class="fragment">CGROUPS = limits how much you can use</li>
+		<li class="fragment">NAMESPACE = limits what you can see (and therefore use)</li>
+	</ul>
+			
 	<li class="fragment"><b>UNION FILE SYSTEM:</b><br>
 	Union file systems, or UnionFS, are file systems that operate by creating layers, making them very lightweight and fast. Docker Engine uses UnionFS to provide the building blocks for containers. 
     Docker Engine can use multiple UnionFS variants, including AUFS, btrfs, vfs, and DeviceMapper.
