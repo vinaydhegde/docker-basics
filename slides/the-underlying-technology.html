@@ -4,6 +4,7 @@
 	Docker uses a technology called namespaces to provide the isolated workspace called the container. When you run a container, Docker creates a set of namespaces for that container.
 	These namespaces provide a layer of isolation. Each aspect of a container runs in a separate namespace and its access is limited to that namespace.
 	</li>
+	<p class="fragment">Namespaces provide processes with their own view of the system</p>
 	<p class="fragment">Docker Engine uses namespaces such as the following on Linux:</p>
 	<ul style="list-style-type:circle;">
 		<li class="fragment">The <b>pid</b> namespace: Process isolation (PID: Process ID).</li>
@@ -12,7 +13,4 @@
 		<li class="fragment">The <b>mnt</b> namespace: Managing filesystem mount points (MNT: Mount).</li>
 		<li class="fragment">The <b>uts</b> namespace: Isolating kernel and version identifiers. (UTS: Unix Timesharing System).</li>
 	</ul>			
-	<li class="fragment"><b>CONTROL GROUPS:</b><br>
-	A cgroup limits an application to a specific set of resources. Control groups allow Docker Engine to share available hardware resources to containers and optionally enforce limits and constraints. For example, you can limit the memory available to a specific container.
-	</li>
 </ul>
